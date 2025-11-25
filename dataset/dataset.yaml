@@ -1,0 +1,9 @@
+path: ./dataset/
+
+train: images
+val: images
+
+names:
+  0: dark_blue
+  1: light_blue
+  2: others
