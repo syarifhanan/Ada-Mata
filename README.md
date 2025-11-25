@@ -46,7 +46,6 @@ Build an object detection and color classification model capable of identifying 
 
 4. **Insights & Analysis**
 
-   * Dataset imbalance and challenges
    * Model bias and failure cases
    * Discussion of real-time performance considerations
 
@@ -59,15 +58,16 @@ All experiment results and explanations are documented in the notebook.
 ```
 .
 │
-├── main.ipynb                         # Full analysis & model development
-│  
+├── main.ipynb                    # Model development using YOLO11s
 │
-├── dataset/                           # Images & YOLO labels
+├── main2.ipynb                   # Model development using YOLO11n
 │
-├── runs/                               # YOLO training results
+├── dataset/                      # Images & YOLO labels
 │
-├── README.md                           # This file
-└── requirements.txt                    # Dependencies (optional)
+├── runs/                         # YOLO training results
+│
+├── README.md                     # This file
+└── requirements.txt              # Dependencies (optional)
 ```
 
 ---
@@ -142,7 +142,7 @@ Speed: 2.8ms preprocess, 23.3ms inference, 1.7ms postprocess per image at shape 
 
 ### ✔ Model Bias
 
-* Trained with YOLO11n shows poor detection result, so model used is YOLO11s (not optimized for edge deployment)
+* Trained with YOLO11n shows poor detection result (fail to detect bottlecap), so model used is YOLO11s (not optimized for edge deployment)
 
 ### ✔ Limitations
 
