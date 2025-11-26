@@ -127,6 +127,8 @@ runs/detect/predict/
 
 ### 📈 Performance Observations
 
+Model trained and inferred using an Nvidia RTX 4070 laptop.
+
 On validating:
 Speed: 0.3ms preprocess, 5.7ms inference, 0.0ms loss, 5.6ms postprocess per image
 
