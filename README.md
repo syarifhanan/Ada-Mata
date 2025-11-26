@@ -19,6 +19,9 @@ This project focuses on:
 > The ML pipeline (Task 2) is not implemented.
 > I don't have much exposure to ML pipeline previously, but I've tried to learn the terms and tools. Unfortunately, I'm running out of time at the end.
 
+Here is the code I used for my thesis research about Federated learning in the Predictive Maintenance domain. It is forecasting machine failure with time series data.
+https://github.com/syarifhanan/Federated-Learning-PdM
+
 ---
 
 # 📌 Project Overview
